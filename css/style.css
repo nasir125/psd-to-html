@@ -1,0 +1,574 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Ropa Sans', sans-serif;
+
+}
+
+.container{
+	width: 1362px;
+	margin: 0 auto;
+}
+
+/* Top Section  */
+.top-menu{
+	width: 100%;
+    background-color: #61813B;
+}
+
+.top-text{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.top-text span{
+	color: #fff;
+    word-spacing: 5px;
+    font-size: 16px;
+}
+.top-text a{
+	color: #fff;
+    padding-left: 26px;
+    text-decoration: none;
+    opacity: 0.7;
+
+}
+
+.fa.fa-angle-double-right{
+	color: #fff;
+    padding-left: 4px;
+    opacity: 0.7;
+}
+
+/* Header Section  */
+
+header{
+	width: 100%;
+    float: left;
+}
+
+.logo{
+	width: 40%;
+    float: left;
+}
+
+.logo img{
+	width: 270px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.contact-menu{
+    width: 60%;
+    float: left;
+    margin-top: 30px;
+}
+
+.contact-menu ul{
+    list-style: none;
+}
+
+.contact-menu ul button{
+	border: none;
+    background-color: #fff;
+    padding-right: 5px;
+    font-size: 18px;
+    color: #969696;
+}
+
+.contact-menu ul input{
+	border: none;
+    padding-right: 10px;
+    font-size: 16px;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+.contact-menu ul li {
+    display: inline;
+    padding-left: 50px;
+}
+
+.contact-menu ul li a{
+	text-decoration: none;
+    color: #969696;
+    font-size: 16px;	
+}
+
+.fa.fa-gift{
+	padding-right: 8px;
+    font-size: 22px;
+}
+
+.fa.fa-phone{
+    padding-right: 7px;
+    font-size: 21px;
+}
+.fa.fa-user{
+	padding-right: 8px;
+    font-size: 21px;
+}
+.fa.fa-shopping-cart{
+	font-size: 23px;
+}
+
+/*   Navigation  */
+
+
+.nav{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    border: 2px solid #e6e6e6;
+}
+
+.nav ul{
+	list-style: none;
+    text-align: center;
+}
+
+.nav ul li{
+	display: inline-block;
+    border-right: 2px solid #e6e6e6;
+    padding: 5px 0px;
+}
+
+
+.nav ul li a{
+    text-decoration: none;
+    padding: 0px 36px;
+    color: #414141;
+    font-size: 23px;
+    transition: 0.5s;
+}
+
+
+.last{
+
+	border-right: none !important;
+
+}
+
+/*   Main Cover   */
+
+.main-cover{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.cover{
+    background-image: url(../img/bannar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cover h2{
+	color: #fff;
+    font-family: 'Teko', sans-serif;
+    padding-left: 100px;
+    padding-top: 135px;
+    font-size: 47px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    line-height: 57px;
+}
+
+.cover p{
+	font-size: 30px;
+    color: #fff;
+    padding-left: 100px;
+    word-spacing: 2px;
+}
+
+.cover a{
+	color: #fff;
+    text-decoration: none;
+    margin-left: 103px;
+    border: 2px solid #fff;
+    padding: 8px 13px;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 29PX;
+    margin-bottom: 143px;
+    transition: 0.5s;
+}
+
+.cover a:hover{
+	background-color: #4C692B;
+	border:2px solid #4C692B;	
+}
+
+/*   Blog Content */
+
+.blog-content{
+    width: 100%;
+    float: left;
+    margin-top: 28px;
+}
+.blog-post-first{
+ 	width: 32.33%;
+    float: left;
+    position: relative;
+
+}
+
+.blog-post-first img{
+    width: 100%;
+}
+
+.img-hover{
+	position: absolute;
+	width: 100%;
+	height:100%;
+	top: 0;
+	right: 0;
+	left: 0;
+	opacity: 0;
+	transition: 1s;
+}
+
+.img-hover img{
+	width: 100%;
+}
+
+.blog-post-first:hover .img-hover{
+	opacity: 1;
+}
+
+
+.blog-post{
+	width: 32.33%;
+    float: left;
+    position: relative;
+    margin-left: 20px;
+}
+
+.blog-post img{
+    width: 100%;
+}
+
+.blog-hover{
+	background-color: #000;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0px;
+}
+
+.blog-hover h2{
+	font-size: 26px;
+    word-spacing: 3px;
+}
+
+.blog-hover span{
+	font-size: 23px;
+    word-spacing: 5px;
+    line-height: 40px;
+}
+
+/*    Brand Title   */
+
+.brand-title{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.brand-title h2{
+	color: #ABABAB;
+    font-size: 40px;
+    font-family: 'Teko', sans-serif;	
+}
+
+/*  Brand Logo  */
+
+.brand-logo{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.brand-logo img{
+    width: 93%;
+    height: 56px;
+    margin: 0px 23px;
+}
+
+.fa.fa-angle-left{
+	color: #BEBEBE;
+    font-size: 53px;
+}
+
+.fa.fa-angle-right{
+	color: #BEBEBE;
+    font-size: 53px;
+}
+
+
+/*   Main Blog   */
+
+
+.main-blog{
+	width: 100%;
+	float: left;
+	margin-top: 40px;
+}
+
+.main-blog-post{
+ 	width: 49%;
+    float: left;
+    position: relative;
+    margin-right: 25px;
+}
+.main-blog-post img{
+    width: 100%;
+}
+
+.main-blog-post:hover .img-hover{
+	opacity: 1;
+}
+.main-blog-post-last{
+ 	width: 49%;
+    float: left;
+    position: relative;
+}
+.main-blog-post-last img{
+    width: 100%;
+}
+
+.main-blog-post-last:hover .img-hover{
+	opacity: 1;
+}
+
+/*   Products    */
+
+
+.product{
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+}
+
+.product-item{
+	width: 24%;
+    float: left;
+    margin-right: 12px;
+}
+
+.product-item img{
+    width: 100%;
+}
+
+.product-item h2{
+	color: #878787;
+    font-size: 36px;
+    font-family: 'Teko', sans-serif;
+    margin-left: 15px;
+}
+.product-item p{
+	color: #878787;
+    font-size: 22px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    line-height: 9px;
+    margin-left: 15px;
+}
+.product-item span{
+	color: #878787;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+    line-height: 70px;
+    margin-right: 95px;
+}
+.product-item i{
+    color: #637249;
+    font-size: 20px;
+}
+
+.number{
+	margin-right: 2px !important;
+}
+
+/*   Bannar      */
+
+.bannar{
+	width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.bannar-one{
+	width: 63%;
+    float: left;
+    margin-right: 25px;
+}
+.bannar-one img{
+	width: 100%;
+}
+
+.bannar-two{
+	width: 35%;
+    float: left;
+    position: relative;
+}
+
+.bannar-two img{
+	width: 100%;
+    height: 376px;
+}
+
+.bannar-hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.bannar-hover h2{
+    color: #fff;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    font-size: 32px;
+}
+
+.bannar-hover p{
+    position: absolute;
+    top: 94px;
+    left: 40px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.bannar-hover a{
+    position: absolute;
+    color: #fff;
+    top: 75%;
+    left: 40px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 6px 12px;
+    font-size: 20px;
+}
+
+.bannar-hover a:hover{
+	background-color: #4C692B;
+	border:2px solid #4C692B;
+}
+
+/*  Membarship Card  */
+
+.membar{
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+}
+
+.membarship{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.membar-hover{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+}
+
+.membar-hover img{
+    top: 27%;
+    position: absolute;
+    left: 17%;
+    width: 233px;
+    height: 70px;
+}
+
+.membar-hover p{
+    position: absolute;
+    top: 34%;
+    right: 38%;
+    font-size: 24px;
+    color: #fff;
+}
+
+
+.membarship a{
+    position: absolute;
+    top: 37%;
+    right: 20%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    border: 3px solid #fff;
+    padding: 6px 13px;
+}
+
+
+footer{
+	width: 100%;
+    float: left;
+    background-color: #61813B;
+    margin-top: 20px;
+}
+
+.social-icon{
+	width: 35%;
+    float: left;
+    margin: 10px 0px;
+    margin-left: 90px;
+}
+
+.social-icon ul{
+	list-style: none;
+}
+
+.social-icon ul li{
+ 	display: inline;
+}
+
+.social-icon ul li a{
+	text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    padding-left: 25px;
+}
+
+.social-icon ul li a i{
+	font-size: 18px;
+    padding-right: 6px;
+}
+
+.footer-text{
+    width: 50%;
+    float: left;
+    margin: 10px auto;
+    margin-left: 95px;
+}
+
+.footer-text p{
+	color: #fff;
+    font-size: 18px;
+}
